@@ -1,0 +1,15 @@
+{
+  "name": "Youtube Auto Restart",
+  "version": "1.0",
+  "description": "An extension that automatically restarts videos on Youtube.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "images/gray-favicon-32x32.png",
+    "default_title": "Youtube Auto Restart"
+  },
+  "manifest_version": 2
+}
